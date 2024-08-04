@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            complaint_form.html
+        </title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <h1>Nile University Survey Form</h1>
+        <form>
+            <p class="p1">Lodge your complaints by filling in the details below</p>
+            <div id="complaint form">
+            <fieldset>
+                <legend>
+                    Complaint Form
+                </legend> 
+                <br>
+                <div> 
+                    <label id="cf">
+                <div>
+                    <label>Name</label>
+                    <input type="text" size="60px" placeholder="Enter your name here" name="cf" id="name-label">
+                </div>
+                <br>
+                
+                <div>
+                    <label>Student ID</label>
+                    <br>
+                    <input type="text" size="60px" placeholder="Enter your student ID" id="student" name="cf">
+                </div>
+                <br>
+                <div>
+                    <label>Email</label>
+                    <br>
+                    <input type="email" size="60px" placeholder="Enter your Email" id="Email-label" name="cf">
+                </div>
+                <br>
+                <div>
+                   <label>Phone Number</label> 
+                   <br>
+                    <input type="number" max="999" min="-999" size="60px" placeholder="Enter your phone number" id="number-label" name="cf">
+                </div>
+                <br>
+            </label>
+        </div>
+                <div>
+                    <p class="p2">Which option best describes your current role</p>
+                    <br>
+                <select name="role" id="dropdown">
+                    <optgroup></optgroup>
+                    <option value="student">Student</option>
+                    <option value="Academic staff">Academic staff</option>
+                    <option value="Non-academic staff">Non-academic staff</option>
+                    <option value="Parents/Guardians">Parents/Guardians</option>
+                </select>
+                </div>
+                <br>
+                <div>
+                    <p class="p3">Which option best describes your complaint Type</p>
+                    <br>
+                <select name="Complaint type" id="cp1">
+                    <option value="Academic">Academic</option>
+                    <option value="Non-academic">Non-academic</option>
+                    <option value="Hostel">Hostel</option>
+                    <option value="security">security</option>
+                    <option value="Kitchen">kitchen</option>
+                    <option value="other">other</option>
+                </select>
+                </div>
+                <br>
+                <div>
+                <hr>
+                    <p class="p4">Details Of Complaint</p>
+                    <br>
+                    <textarea name="details of complaint"></textarea>
+                </div>
+                <hr>
+                <p class="p5">Please help us improve our website by answering the following questions</p>
+                <p class="p6">Would you recommend Nile University to a friend?</p>
+                <br>
+                <div>
+        
+                <label id="rd">
+                    <div>
+                        Definitely<input type="radio" name="rd" value="Definitely">
+                    </div>
+                    <br>
+                    <div>
+                        Maybe<input type="radio" name="rd" value="Maybe">
+                    </div>
+                    <br>
+                    <div>
+                        Not sure<input type="radio" name="rd" value="Not sure">
+                        </div>
+                    <br>
+                  </label>
+                  </div>
+                <br>
+                <div>
+                <hr>
+                   <p class="p7"> What is your Favourite Feature of Nile University website?</p>
+                    <br>   
+                <select name="favourite feature" id="s-name">
+                    <option value="Login">Login</option>
+                    <option value="Portal">Portal</option>
+                    <option value="Grades">Grades</option>
+                    <option value="Timetable">Timetable</option>
+                </select>
+                <hr>  
+                </div>
+                <br>
+                <p class="p8">What would you like to improve?</p>
+                <br>
+                <div>
+                    <label id="itc">
+                <div>
+                    Front-end<input type="checkbox" name="itc" >
+                </div>
+                <br>
+                <div>
+                    Back-end<input type="checkbox" name="itc">
+                </div>
+                <br>
+                <div>
+                    Gallery<input type="checkbox" name="itc">
+                </div>
+                <br>
+                <div>
+                    videos<input type="checkbox" name="itc">
+                </div>
+                <br>
+                <div>
+                    Portal<input type="checkbox" name="itc">
+                </div>
+                <br>
+                <div>
+                    Timetable<input type="checkbox" name="itc">
+                </div>
+                <br>
+                <div>
+                    courses<input type="checkbox" name="itc">
+                </div>
+                <br>
+            </label>
+            </div>
+                <div>
+                    <p class="p9">Any Comments or Suggestions?</p>
+                    <br>
+                    <textarea name="Comments or suggestions"></textarea>
+                </div>
+                <br>
+                <div>   
+                    <button type="submit" class="submit1"> submit</button>
+                </div>
+            </fieldset>
+          </div>
+        </div>
+        </form>
+    </body>
+</html>
